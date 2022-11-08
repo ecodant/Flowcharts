@@ -1,0 +1,3 @@
+Diagramas de flujo ejercicio...
+
+10. En un curso de computación, que consta de 24 alumnos, deberán armar un algoritmo que informe por pantalla el apellido y nombre junto a la nota de examen de cada alumno.

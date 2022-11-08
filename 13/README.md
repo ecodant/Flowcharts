@@ -1,0 +1,3 @@
+Diagramas de flujo ejercicio...
+
+13. Ingresar 10 valores por teclado y obtener la sumatoria de los mismos. Imprimir los resultados.
