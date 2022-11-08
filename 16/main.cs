@@ -22,7 +22,7 @@ class HelloWorld {
             Console.WriteLine("***Porfavor ingrese un número entero");
         }
     }
-    while(count < 100);
+    while(count < 10);
     promedio = suma / valoresPromedio;
     Console.WriteLine("El promedio de los valores entre 5 y 2500, que usted proporcionó es: " + promedio);
   }
