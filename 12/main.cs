@@ -1,6 +1,5 @@
 using System;
-using System.Text.RegularExpressions;
-class HelloWorld {
+class Flowcharts12 {
   static void Main() {
     int suma= 0, valor;
     while(suma <= 78500)
@@ -12,9 +11,9 @@ class HelloWorld {
             suma += valor;
         } else
         {
-        Console.WriteLine("***Porfavor ingrese un número entero");
+        Console.WriteLine("**Error!, por favor ingrese un número entero");
         }
     }
-    Console.WriteLine("El resultado de sus respectivos valores es: " + suma);
+    Console.WriteLine("La suma ha finalizado, el resultado de sus respectivos valores es: " + suma);
   }
 }
