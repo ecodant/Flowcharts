@@ -1,6 +1,5 @@
 using System;
-using System.Text.RegularExpressions;
-class HelloWorld {
+class Flowcharts16 {
   static void Main() {
     int count = 0, valor, promedio,valoresPromedio = 0;
     int suma = 0;
@@ -19,7 +18,7 @@ class HelloWorld {
         } 
         else
         {
-            Console.WriteLine("***Porfavor ingrese un número entero");
+            Console.WriteLine("**Error!, por favor ingrese un número entero");
         }
     }
     while(count < 10);
