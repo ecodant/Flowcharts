@@ -1,6 +1,5 @@
 using System;
-using System.Text.RegularExpressions;
-class HelloWorld {
+class Flowcharts15 {
   static void Main() {
     int count = 0, valor;
     do
@@ -34,7 +33,7 @@ class HelloWorld {
             count++;
         } else
         {
-            Console.WriteLine("***Porfavor ingrese un número entero");
+            Console.WriteLine("**Error!, por favor ingrese un número entero");
         }
     }
     while(count < 100);
