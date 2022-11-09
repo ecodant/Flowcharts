@@ -1,9 +1,8 @@
 
 using System;
-using System.Text.RegularExpressions;
-class HelloWorld {
+class Flowcharts14 {
   static void Main() {
-    int suma= 0,promedio, valor, count = 0;
+    int suma= 0, promedio, valor, count = 0;
     do
     {
         Console.WriteLine("Ingrese los valores");
@@ -14,7 +13,7 @@ class HelloWorld {
             count++;
         } else
         {
-        Console.WriteLine("***Porfavor ingrese valores enteros");
+        Console.WriteLine("**Error!, por favor ingrese valores enteros");
         }
     }
     while(count < 6);
