@@ -9,7 +9,7 @@ class HelloWorld {
     {
         Console.WriteLine("Ingrese el nombre y apellido del alumno");
         alumno = Console.ReadLine();
-        Regex reg = new Regex(@"[a-zA-Z] ");
+        Regex reg = new Regex(@"(^[a-zA-Z]{4})");
         if (reg.IsMatch(alumno) == true)
         {
             while (noteConfirm == false)
